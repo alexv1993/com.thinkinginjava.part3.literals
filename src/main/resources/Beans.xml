@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="literals" class="com.github.alexv1993.literals.model.Literals" scope="prototype">
+        <property name="i1" value="0x2f"/>
+        <property name="i2" value="0X2F"/>
+        <property name="i3" value="0177"/>
+        <!--<property name="c" value="0xffff"/>-->
+        <property name="b" value="0x7f"/>
+        <property name="s" value="0x7fff"/>
+        <!--<property name="n1" value="200L"/>-->
+        <!--<property name="n2" value="200l"/>-->
+        <property name="n3" value="200"/>
+        <property name="f1" value="1"/>
+        <property name="f2" value="1F"/>
+        <property name="f3" value="1f"/>
+        <property name="d1" value="1d"/>
+        <property name="d2" value="1D"/>
+    </bean>
+
+    <bean id="showManager" class="com.github.alexv1993.literals.main.ShowManagerImpl" scope="singleton"/>
+
+</beans>

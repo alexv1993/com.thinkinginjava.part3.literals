@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"-->
+<!--"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">-->
+<!DOCTYPE hibernate-mapping SYSTEM
+        "classpath://org/hibernate/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.github.alexv1993.literals.model.Literals" table="LITERALS">
+        <id name="ID" type="int">
+            <column name="ID"/>
+            <generator class="increment"/>
+        </id>
+        <property name="i1" type="int">
+            <column name="I1"/>
+        </property>
+        <property name="i2" type="int">
+            <column name="I2"/>
+        </property>
+        <property name="i3" type="int">
+            <column name="I3"/>
+        </property>
+        <property name="c" type="char">
+            <column name="c"/>
+        </property>
+        <property name="b" type="byte">
+            <column name="b"/>
+        </property>
+        <property name="s" type="short">
+            <column name="S"/>
+        </property>
+        <property name="n1" type="long">
+            <column name="N1"/>
+        </property>
+        <property name="n2" type="long">
+            <column name="N2"/>
+        </property>
+        <property name="n3" type="long">
+            <column name="N3"/>
+        </property>
+
+        <property name="f1" type="float">
+            <column name="F1"/>
+        </property>
+        <property name="f2" type="float">
+            <column name="F2"/>
+        </property>
+        <property name="f3" type="float">
+            <column name="F3"/>
+        </property>
+        <property name="d1" type="double">
+            <column name="D1"/>
+        </property>
+        <property name="d2" type="double">
+            <column name="D2"/>
+        </property>
+    </class>
+</hibernate-mapping>
