@@ -20,6 +20,6 @@
         <property name="d2" value="1D"/>
     </bean>
 
-    <bean id="showManager" class="com.github.alexv1993.literals.main.ShowManagerImpl" scope="singleton"/>
+    <bean id="showManager" class="com.github.alexv1993.literals.main.ShowManagerImpl"/>
 
 </beans>
