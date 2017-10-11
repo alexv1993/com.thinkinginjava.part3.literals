@@ -6,22 +6,22 @@ package com.github.alexv1993.literals.main;
 public class ShowManagerImpl implements ShowManager {
     @Override
     public void show(int i) {
-        System.out.println("i " + Integer.toBinaryString(i));
+        System.out.println("i " + Long.toBinaryString(i));
     }
 
     @Override
     public void show(char i) {
-        System.out.println("i " + Integer.toBinaryString(i));
+        System.out.println("i " + Long.toBinaryString(i));
     }
 
     @Override
     public void show(byte i) {
-        System.out.println("i " + Integer.toBinaryString(i));
+        System.out.println("i " + Long.toBinaryString(i));
     }
 
     @Override
     public void show(short i) {
-        System.out.println("i " + Integer.toBinaryString(i));
+        System.out.println("i " + Long.toBinaryString(i));
     }
 
     @Override
